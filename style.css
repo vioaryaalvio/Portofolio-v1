@@ -254,7 +254,7 @@ h2 span {
     color: var(--main-color);
 }
 
-/* ==================== CONTACT SECTION ==================== */
+/* CONTACT SECTION */
 .contact {
     text-align: center; 
 }
@@ -342,5 +342,27 @@ h2 span {
     .home-img img {
         width: 230px;
         height: 230px;
+    }
+
+    section {
+        min-height: auto; 
+        padding: 80px 6% 40px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .about-img img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+        line-height: 1.6;
+        text-align: justify;
     }
 }
